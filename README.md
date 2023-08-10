@@ -1,4 +1,4 @@
-# Tic-Tac-Toe-Reverse ❌⭕❌⭕
+# ❌⭕ Tic-Tac-Toe-Reversed ❌⭕
  
 A Tic-Tac-Toe-Reversed game I made with Visual Studio WinForms, C# .NET.
 
