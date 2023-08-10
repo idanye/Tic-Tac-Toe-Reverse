@@ -81,10 +81,6 @@ namespace UI
             }
         }
 
-        private void FormGameSettings_Load(object sender, EventArgs e)
-        {
-        }
-
         private void player2CheckBox_CheckedChanged(object sender, EventArgs e)
         {
             if (player2CheckBox.Checked)
@@ -127,6 +123,11 @@ namespace UI
 
         private void FormGameSettings_Load_1(object sender, EventArgs e)
         {
+        }
+
+        private void numOfColumns_ValueChanged(object sender, EventArgs e)
+        {
+            numOfRows.Value = numOfColumns.Value;
         }
     }
 }

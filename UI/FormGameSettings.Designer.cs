@@ -152,6 +152,7 @@ namespace UI
             this.numOfColumns.Size = new System.Drawing.Size(59, 26);
             this.numOfColumns.TabIndex = 12;
             this.numOfColumns.Value = this.numOfRows.Value;
+            this.numOfColumns.ValueChanged += new System.EventHandler(this.numOfColumns_ValueChanged);
             // 
             // rowLabel
             // 
